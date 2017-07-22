@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Gallerygridview">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF03"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#FF03"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                >
+                <GridView
+
+                    android:layout_margin="10dp"
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:numColumns="auto_fit"
+                    android:verticalSpacing="10dp"
+                    android:horizontalSpacing="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

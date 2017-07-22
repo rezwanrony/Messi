@@ -1,0 +1,323 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myDrawer">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+             android:background="@drawable/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    android:background="@color/colorPrimary"
+                    android:minHeight="?attr/actionBarSize"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:src="@drawable/messifront"
+                />
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="115dp"
+                android:layout_height="wrap_content"
+                android:text="Lionel Andrés Messi"
+                android:textColor="#FF03"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="117dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Messi"
+                android:textColor="#FF03"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_marginLeft="114dp"
+                android:layout_width="130dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Lionel Andrés Messi born 24 June 1987 is an Argentine professional footballer who plays as a forward for Spanish club Barcelona and the Argentina national team. Often considered the best player in the world and rated by many in the sport as the greatest of all time. Messi is the only football player in history to win five FIFA Ballonsd'Or, four of which he won consecutively, and the first playerto win three European Golden Shoes. With Barcelona he has won eight La Liga titles and four UEFA Champions League titles, as well as four Copas del Rey. A prolific goalscorer, Messi holds the records for most goals scored in La Liga, a La Liga season (50), a calendaryear (91), a single season (73), a Champions League match (five),and most Champions League seasons (five)."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navMenu"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/back"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_cover"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/messicover"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="80dp"
+                android:orientation="horizontal"
+
+
+
+                >
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitStart"
+                    android:id="@+id/img_bio"
+                    android:src="@drawable/biographyicon"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BIOGRAPHY"
+                    android:id="@+id/tv_bio"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_marginLeft="1dp"
+                    android:scaleType="fitStart"
+                    android:id="@+id/img_lifestyle"
+                    android:src="@drawable/lifestyleicon"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LIFESTYLE"
+                    android:id="@+id/tv_lifestyle"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitStart"
+                    android:id="@+id/img_quotes"
+                    android:src="@drawable/quotesicon"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="QUOTES"
+                    android:id="@+id/tv_quotes"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitStart"
+                    android:id="@+id/img_achievements"
+                    android:src="@drawable/achievements"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ACHIEVEMENTS"
+                    android:id="@+id/tv_achievements"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitStart"
+                    android:id="@+id/img_videos"
+                    android:src="@drawable/videoicon"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VIDEOS"
+                    android:id="@+id/tv_videos"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitStart"
+                    android:id="@+id/img_gallery"
+                    android:src="@drawable/galleryicon"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GALLERY"
+                    android:id="@+id/tv_gallery"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitStart"
+                    android:id="@+id/img_connectmesi"
+                    android:src="@drawable/connectmessi"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONNECT MESSI"
+                    android:id="@+id/tv_connectmessi"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

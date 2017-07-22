@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.appracks.templete.Achievements">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/achievementsmessi"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF03"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achievements"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_width="155dp"
+                android:layout_height="1dp"
+                android:background="#FF03"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Club"
+                android:textColor="#FF03"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_width="52dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La Liga: 2004–05, 2005–06, 2008–09, 2009–10, 2010–11, 2012–13, 2014–15, 2015–16
+
+Copa del Rey: 2008–09, 2011–12, 2014–15, 2015–16
+
+Supercopa deEspaña: 2005, 2006, 2009, 2010, 2011, 2013
+
+UEFA Champions League: 2005–06, 2008–09, 2010–11, 2014–15
+
+UEFA Super Cup: 2009, 2011, 2015
+
+FIFA Club World Cup: 2009, 2011, 2015"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="International"
+                android:textColor="#FF03"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FIFA World Youth Championship: 2005
+
+Olympic Gold Medal: 2008
+
+Runner-up FIFA World Cup: 2014
+
+Runner-up Copa América: 2007, 2015, 2016"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Individual"
+                android:textColor="#FF03"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Awards"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ballon d'Or: 2009
+
+FIFA World Player of the Year: 2009
+
+UEFA Club Footballer of the Year: 2009
+
+UEFA Club Forward of the Year: 2009
+
+FIFA Ballon d'Or: 2010, 2011, 2012, 2015
+
+IFFHS World's Best Top Goalscorer: 2011, 2012
+
+IFFHS World's Best Top Division Goalscorer: 2012, 2013
+
+IFFHS World's Best Playmaker: 2015
+
+UEFA Best Player in Europe: 2011, 2015
+
+European Golden Shoe: 2010, 2012, 2013
+
+La Liga Best Player: 2009, 2010, 2011, 2012, 2013, 2015
+
+La Liga Best Forward: 2009, 2010, 2011, 2012, 2013, 2015
+
+La Liga Player of the Month: January 2016
+
+Olimpia de Plata (Argentine Footballer of the Year): 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015
+
+Olimpia de Oro (Argentine Sportsperson of the Year): 2011
+
+FIFA Club World Cup Golden Ball: 2009, 2011
+
+FIFA Club World Cup Silver Ball: 2015
+
+FIFA World Cup Golden Ball: 2014
+
+Copa América Most Valuable Player: 2015 (rejected)
+
+FIFA FIFPro World XI: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015
+
+UEFA Team of the Year: 2008, 2009, 2010, 2011, 2012, 2014, 2015
+
+La Liga Team of the Year: 2015
+
+AFA Team of All Time (published 2015)
+
+FIFA World Cup Dream Team: 2014
+
+Copa América Dream Team: 2007, 2011, 2015
+
+UEFA Goal of the Year: 2007, 2015
+
+Copa América Best Goal: 2007
+
+FIFPro Young World Player of the Year: 2006, 2007, 2008
+
+Golden Boy (Young European Footballer of the Year): 2005
+
+FIFA World Youth Championship Golden Ball: 2005
+
+FIFA World Youth Championship Golden Shoe: 2005
+
+Copa América Best Young Player: 2007"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Perfomances"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La Liga top goalscorer: 2009–10, 2011–12, 2012–13
+
+La Liga top assist provider: 2010–11, 2014–15, 2015–16
+
+Copa del Rey top goalscorer: 2008–09, 2010–11, 2013–14, 2015–16
+
+UEFA Champions League top goalscorer: 2008–09, 2009–10, 2010–11, 2011–12, 2014–15
+
+UEFA Champions League top assist provider: 2011–12, 2014–15
+
+FIFA Club World Cup top goalscorer: 2011
+
+FIFA World Youth Championship top goalscorer: 2005
+
+Copa América top assist provider: 2011, 2015"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Records"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Most FIFA Ballons d'Or: 5 (2009–12, 2015)
+
+Most consecutive FIFA Ballons d'Or: 4
+
+Youngest two-time and three-time FIFA Ballon d'Or winner: 23 and 24 years old
+
+Most UEFA Best Player in Europe awards: 3 (2009, 2011, 2015)
+
+Most La Liga Best Player awards: 6 (2009–13, 2015)
+
+Top goalscorer in La Liga: 312 goals
+
+Top assist provider in La Liga: 127 assists
+
+Top goalscorer in the Supercopa de España: 11 goals
+
+Top goalscorer in El Clásico: 21 goals
+
+Top goalscorer in the Derbi barceloní: 16 goals
+
+Top goalscorer in the UEFA Super Cup: 3 goals (shared with Arie Haan, Oleg Blokhin, Gerd Müller, Rob Rensenbrink, François Van der Elst, Terry McDermott, and Radamel Falcao)
+
+Top goalscorer in the FIFA Club World Cup: 5 goals (shared with César Delgado and Luis Suárez)
+
+Top goalscorer for club and country in a calendar year: 91 goals in 2012
+
+Top goalscorer in all club competitions in a calendar year: 79 goals in 2012
+
+Top goalscorer in all club competitions in a season: 73 goals in 2011–12
+
+Longest goalscoring run in a domestic league: 21 matches, 33 goals in 2012–13
+
+Top goalscorer in a La Liga season: 50 goals in 2011–12
+
+Most hat-tricks scored in a La Liga season: 8 in 2011–12 (shared with Cristiano Ronaldo)
+
+Only player to score consecutively against all opposition teams in La Liga: 19 matches, 30 goals in 2012–13
+
+Only player to have won more than one FIFA Club World Cup Golden Ball.
+
+Youngest player to score 200 goals in La Liga: 25 years in 2013
+
+Only player to be top goalscorer in five UEFA Champions League seasons (2008–09 to 2011–12, 2014–15)
+
+Only player to be top goalscorer in four consecutive UEFA Champions League seasons
+
+Most hat-tricks scored in the UEFA Champions League: 5
+
+Most goals scored in a UEFA Champions League match: 5 in 2012 (shared with Luiz Adriano)
+
+Youngest player to make 100 appearances in the UEFA Champions League: 28 years, 84 days in 2015
+
+Most titles won with Barcelona: 28 (shared with Andrés Iniesta)
+
+Top goalscorer for Barcelona in official competitions: 448 goals
+
+Top goalscorer for Barcelona including friendlies: 477 goals
+
+Top goalscorer for Barcelona in the UEFA Champions League: 82 goals
+
+Most hat-tricks scored in all competitions by a Barcelona player: 35
+
+Most hat-tricks scored in La Liga by a Barcelona player: 26
+
+Only Barcelona player to be top goalscorer in three La Liga seasons (2009–10, 2011–12, 2012–13)
+
+All-time top assist provider in Copa América: 11 Assists
+
+Argentina all-time top goalscorer
+
+Top goalscorer for Argentina in a calendar year: 12 goals in 2012 (shared with Gabriel Batistuta)
+
+Youngest player to play for Argentina in a FIFA World Cup: 18 years, 357 days in 2006
+
+Youngest player to score for Argentina in a FIFA World Cup: 18 years, 357 days in 2006
+
+Youngest player to reach 100 caps for a country under CONMEBOL's jurisdiction: 27 years, 361 days in 2015(As of 21 June 2016)"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

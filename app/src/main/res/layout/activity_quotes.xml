@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="com.appracks.templete.Quotes">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/quotes1"
+                android:scaleType="fitXY"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF03"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quotes About Messi"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="1dp"
+            android:background="#FF03"
+            android:layout_gravity="center">
+
+        </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I have never seen anyone like Leo Messi. He is a miracle from God! I like it when he does his things on the field. It's not jealousy - I feel good, for instance, when he nutmegs someone.-Arda Turan"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once they said they can only stop me with a pistol. Today you need a machine gun to stop Messi. - Hristo Stoichkov"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is clear that Messi is on a level above all others. Those who do not see that are blind.    - Xavi"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For me, to watch Messi play is a pleasure – it’s like having an orgasm – it’s an incredible pleasure.- Luis Figo"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This Barca will be remembered as Messi’s Barca. He’s well above anything else I’ve ever seen. He’s an alien.- Messi's former team-mate Carles Puyol"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't write about him, don't try to describe him. Just watch him.- Pep Guardiola"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi is the best in the world without any doubt and for me the history of football.-Luis Enrique"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi is God, as a person and even more as a player. I knew him when he was a boy and I’ve watched him grow. He deserves it all.- Samuel Eto'o"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/quotes2"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Although he may not be human, it’s good that Messi still thinks he is.- Javier Mascherano"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="They tell me that all men are equal in God’s eyes, this player makes you seriously think about those words.- Football commentator Ray Hudson"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Newton and Einstein had a certain level of autism - I hope that, like them, Messi surpasses himself every day and continues to give us his beautiful brand of football.- Romario"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Life with Leo is prettier, of another colour.- Barcelona president Josep Maria Bartomeu"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are three or four important things in life: books, friends, women… and Messi.- Portuguese writer Antonio Lobo Antunes"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barca will never have a player like Messi again. Messi’s greatness is present on and off the field of play.- ex-Barcelona president Sandro Rosell"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seeing Messi play is like watching a video game… What Messi does on a football field is simply unthinkable… The way he walks from side to side, and once he sees an opportunity, he simply creates magic.- tennis superstar Victoria Azarenka"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/quotes3"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi is class. There is him, and then there is the rest. What he does is extraordinary.- Franck Ribery"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We give him the ball and stand back and watch. People often say to me they saw Pele and Maradona play. In the future, I will be able to say I saw Messi play.- Thiago Alcantara"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="He is always going forwards. He never passes the ball backwards or sideways. He has only one idea, to run towards the goal. So as a football fan, just enjoy the show.- Zinedine Zidane"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="He sees passes that most people can only see whilst watching the game on TV, not ones that you can normally see on the pitch. - ex-Barcelona manager Tata Martino"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="He does not really seem human to me.- Luis Enrique"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For the world of football, Messi is a treasure because he is a role model for children around the world… Messi will be the player to win the most Ballons d’Or in history. He will win five, six, seven. He is incomparable. He’s in a different league. - Johan Cruyff"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/quotes4"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I have played against Platini, Maradona, Cruyff and played with George Best — a lot of big names, but none of them has been able to do what Messi does. Two years ago I said that the best player I played against was Maradona and the best player I have played with was Bestie. But I can now say I have never seen a player as good as Messi. He’s in a league of his own.- Former Tottenham star Gerry Armstrong"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diego [Maradona] filled us with emotions. But between the cracks, without doubt, Messi is better than Maradona.- Diego Simeone"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There is no doubt, you’re from another galaxy. Thanks Leo.- Maxi Rodriguez"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Who is the Best Player in the World? Leo Messi. Who is the Best Player Ever? Leo Messi. -Arsene Wenger"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/maradona"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I have seen the player who will inherit my place in Argentine football and his name is Messi. Messi is a genius.- Diego Maradona"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/pele"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I like Messi a lot, he’s a great player. Technically, we’re practically at the same level.- Pele"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi or Ronaldo best player in the world? In the world, I would say Ronaldo. Messi is from another planet.- Turkish international Arda Turan"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, Then we would have serious problems.- Zlatan Ibrahimovic"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fella’s a genius. Best ever by a distance in my life time. Never really saw Pele… Souness, Gullit, Venables and now Rooney agree Messi is the best they have seen. He plays a game with which we are not familiar.- Gary Lineker"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It feels good to be in the same generation as him. I believe he’s the best player in the history of the sport.- Gerard Pique"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lionel Messi is quite clearly the best player ever. It’s a pleasure to pit myself against him and when I finish my career it’s something I can look back on and know I’ve tested myself against the very best.- John Terry"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi has a divine gift.- Dani Alves"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/quotes6"
+                android:scaleType="fitXY"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi is better than Maradona; he is more complete, more consistent, more spectacular. He is reinventing the game – a mix of the real and the virtual.- Tostão"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I was a big fan of Maradona growing up and of the current crop Ronaldo is good but Messi is the best I’ve ever seen. I don’t dish out praise lightly but Messi deserves it. I look for weaknesses in his game and I can’t find them.- Roy Keane"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/quotes5"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="He is the best in the world. Football seems easy when he plays it.- Bacary Sagna"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The only bad thing about Ronaldo’s life is Messi. If it was not for him, Ronaldo would be the best player in the world for five years in a row.- Felipe Scolari"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I can’t believe anyone can have played the game of football as well as Messi.- Michael Owen"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is Messi a real player or a PlayStation character?- Radamel Falcao"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/quotes5"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi is a genius. He has everything. When I watch him, I see a player who is very, very, skilful, very clever and his left foot is like Diego Maradona’s.- Franz Beckenbauer"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messi or Cristiano? Cristiano Ronaldo is very good, but I prefer Messi. He’s incredible.- Gheorghe Hagi"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The other day I saw one of his games. He was running with the ball at a hundred per cent full speed, I don’t know how many touches he took, maybe five or six, but the ball was glued to his foot. It’s practically impossible.- Real Madrid legend Raul"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginBottom="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

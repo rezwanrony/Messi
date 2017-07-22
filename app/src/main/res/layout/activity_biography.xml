@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="com.appracks.templete.Biography">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/messibio"
+                android:id="@+id/messibio"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_biography"
+            android:text="BIOGRAPHY"
+            android:gravity="center"
+            android:textColor="#FF03"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+           android:background="#FF03"
+            >
+        </LinearLayout>
+     <TextView
+         android:layout_marginLeft="5dp"
+         android:layout_marginTop="15dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Personal Info"
+         android:textColor="#FF03"
+         android:textStyle="bold"
+         android:id="@+id/personalinfo"
+         android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="140dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_personalinfo"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Family and Relationship"
+                    android:textColor="#FF03"
+                    android:textStyle="bold"
+                    android:id="@+id/family"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="240dp"
+                    android:layout_height="1dp"
+                    android:background="#FF03"
+                    android:layout_marginBottom="10dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="140dp"
+                        android:layout_height="170dp"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Father"
+                            android:textColor="#fff"
+                            android:textStyle="bold"/>
+                        <LinearLayout
+                            android:layout_width="40dp"
+                            android:layout_height="1dp"
+                            android:background="#fff"
+                            ></LinearLayout>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jorge Horacio Messi"
+                            android:textColor="#fff"
+                            android:textStyle="bold"/>
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/father"
+                            android:scaleType="fitXY"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_marginLeft="35dp"
+                        android:layout_width="180dp"
+                        android:layout_height="170dp"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mother"
+                            android:textColor="#fff"
+                            android:textStyle="bold"/>
+                        <LinearLayout
+                            android:layout_width="50dp"
+                            android:layout_height="1dp"
+                            android:background="#fff"
+                            ></LinearLayout>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Celia María Cuccittini Messi"/>
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/mother"
+                            android:scaleType="fitXY"
+                            />
+                    </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="130dp"
+                            android:layout_height="170dp"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Brother"/>
+                            <LinearLayout
+                                android:layout_width="50dp"
+                                android:layout_height="1dp"
+                                android:background="#fff"
+                                ></LinearLayout>
+                            <TextView
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Rodrigo Messi"/>
+
+                            <ImageView
+                                android:layout_marginTop="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/brother1"
+                                android:scaleType="fitXY"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="180dp"
+                            android:layout_height="170dp"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="0">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Brother"
+                                android:textColor="#fff"
+                                android:textStyle="bold"/>
+                            <LinearLayout
+                                android:layout_width="50dp"
+                                android:layout_height="1dp"
+                                android:background="#fff"
+                                ></LinearLayout>
+                            <TextView
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Matías Messi"/>
+
+                            <ImageView
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/brother2"
+                                android:scaleType="fitXY"
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="130dp"
+                            android:layout_height="170dp"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Sister"/>
+                            <LinearLayout
+                                android:layout_width="50dp"
+                                android:layout_height="1dp"
+                                android:background="#fff"
+                                ></LinearLayout>
+                            <TextView
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Maria Sol Messi"/>
+
+                            <ImageView
+                                android:layout_marginTop="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/sister"
+                                android:scaleType="fitXY"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="180dp"
+                            android:layout_height="170dp"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="0">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Girlfriend"
+                                android:textColor="#fff"
+                                android:textStyle="bold"/>
+                            <LinearLayout
+                                android:layout_width="50dp"
+                                android:layout_height="1dp"
+                                android:background="#fff"
+                                ></LinearLayout>
+                            <TextView
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Antonella Roccuzzo"/>
+
+                            <ImageView
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/girlfriend"
+                                android:scaleType="fitXY"
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Early Life"
+                android:textColor="#FF03"
+                    android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/earlylife"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Football Career"
+                android:textColor="#FF03"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/footballcarrer"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activism"
+                android:textColor="#FF03"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="90dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/activism"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Club Records"
+                android:textColor="#FF03"
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="140dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/club_info"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="International Records"
+                android:textColor="#FF03"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:background="#FF03">
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/international_info"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

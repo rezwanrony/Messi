@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.appracks.templete.Lifestyle"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/messilifestyle"
+                />
+        </LinearLayout>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textColor="#FF03"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lifestyle"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="#FF03"
+        android:layout_gravity="center">
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Lionel Messi Earnings:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="$81.4 Million(Forbes)"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/dollar"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:text="Favourite Cars:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Maserati GranTurismo S"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/car1"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Ferrari F430 Spider"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/car2"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Dodge Charger SRT8"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/car3"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Audi Q7"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/car4"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Audi R8 Spyder"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/car5"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Lexus 4X4"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/car6"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Messi's House:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/house"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Favourite food:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Escalope Millanese, salad"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/food"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Hobbies and interests:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Playing Video games"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/videogames"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Listening music"/>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/messilisteningmusic"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Favourite color:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Favorite Book:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="El Martin Fierro"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/book"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Favorite Movie:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Baby's Day Out(1994)"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/movie"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Favorite Music:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="cumbia"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/music"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:text="Favorite Musician:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Sergio Torres"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/musician"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Favorite Tv Show:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Primicias"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/tvshow"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="1dp"
+                android:textStyle="bold"
+                android:textColor="#FF03"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Favorite Player:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Pablo Aimar"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/player"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

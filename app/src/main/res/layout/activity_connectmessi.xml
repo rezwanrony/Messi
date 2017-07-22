@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appracks.templete.Connectmessi">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/messi9"
+                android:scaleType="fitXY"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF03"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect Messi"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:background="#FF03"
+            android:layout_gravity="center">
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:textStyle="bold"
+            android:textColor="#FF03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Messi official fb link:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/txt_link"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://web.facebook.com/LeoMessi/?fref=ts"
+            android:autoLink="web"
+            android:linksClickable="true"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:textStyle="bold"
+            android:textColor="#FF03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Messi official instragram account:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <TextView
+
+            android:id="@+id/txt_link2"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://www.instagram.com/leomessi/"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:textStyle="bold"
+            android:textColor="#FF03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Messi official wensite:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <TextView
+
+            android:id="@+id/txt_link1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="http://www.messi.com/home.html"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
